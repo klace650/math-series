@@ -9,14 +9,14 @@ def test_one():
   assert actual == expected
 
 def test_two():
-  actual = fibonacci(3)
-  expected = 3
+  actual = fibonacci(8)
+  expected = 21
   assert actual == expected
 
-# def test_three():
-#   actual = fibonacci(3)
-#   expected = 3
-#   assert actual == expected
+def test_three():
+  actual = fibonacci(9)
+  expected = 34
+  assert actual == expected
 
 # def test_four():
 #   actual = fibonacci(4)
