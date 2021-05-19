@@ -9,8 +9,8 @@ def test_one():
   assert actual == expected
 
 def test_two():
-  actual = fibonacci(2)
-  expected = 2
+  actual = fibonacci(3)
+  expected = 3
   assert actual == expected
 
 # def test_three():
