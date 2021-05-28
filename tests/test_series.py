@@ -1,4 +1,4 @@
-from math_series.series import fibonacci
+from math_series.series import fibonacci, lucas
 
 def test_connect():
   assert fibonacci
@@ -18,27 +18,12 @@ def test_three():
   expected = 34
   assert actual == expected
 
-# def test_four():
-#   actual = fibonacci(4)
-#   expected = 4
-#   assert actual == expected
+def test_four():
+  actual = fibonacci(10)
+  expected = 55
+  assert actual == expected
 
-# def test_five():
-#   actual = fibonacci(5)
-#   expected = 5
-#   assert actual == expected
-
-# def test_six():
-#   actual = fibonacci(6)
-#   expected = 6
-#   assert actual == expected
-
-# def test_seven():
-#   actual = fibonacci(7)
-#   expected = 7
-#   assert actual == expected
-
-# def test_eight():
-#   actual = fibonacci(8)
-#   expected = 8
-#   assert actual == expected
+def lucas_one():
+  actual = lucas(10)
+  expected = 17
+  assert actual == expected
